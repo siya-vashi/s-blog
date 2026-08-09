@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "inter";
+    src: url('/fonts/InterDisplay-Light.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: "bookman";
+    src: url('/fonts/bookman.ttf') format("truetype");
+  }
+  
+  @font-face {
+    font-family: "daft";
+    src: url('/fonts/daft.ttf') format("truetype");
+  }

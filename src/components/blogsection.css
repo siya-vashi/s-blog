@@ -1,0 +1,13 @@
+.blog-section {
+    background-color: #91abd5;
+    border-radius: 10px;
+  
+    width: 75%;
+    margin: 1rem auto;
+    padding: 2rem;
+  
+    flex: 1;
+    min-height: 0;
+  
+    
+  }

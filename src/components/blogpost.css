@@ -1,0 +1,61 @@
+@import "style.css";
+
+.blog-post {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-bottom: 2rem;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+  
+  .icon {
+    width: 70px;
+    height: 70px;
+    margin-top: 0.5rem;
+    flex-shrink: 0;
+  }
+  
+  .post-info {
+    background-color: #f5efef;
+    border-radius: 5px;
+    padding: 15px 20px;
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .blogtitle, .date, .content {
+    font-family: "inter";
+  }
+  .blog-post {
+    scroll-margin-top: 150px;
+}
+  
+  .blogtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    overflow-wrap: break-word;
+    word-break: normal;
+    white-space: pre-wrap;
+  }
+  
+  .date {
+    font-size: 13px;
+    font-weight: normal;
+    color: gray;
+    margin: 3px 0 15px 0;
+    text-transform: lowercase;
+  }
+  
+  .content {
+    margin: 0;
+    line-height: 1.5;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: normal;
+    white-space: pre-wrap;
+    
+  }

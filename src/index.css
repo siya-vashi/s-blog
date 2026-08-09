@@ -1,0 +1,12 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    background-color: #bdd3f7;
+    cursor: url("/public/maincursor.svg") 16 16, auto;
+  }
+
+  body {
+    overflow-y: scroll;
+  }
+
+  
