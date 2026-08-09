@@ -3,8 +3,8 @@
 .blog-post {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
-    padding-bottom: 2rem;
+    gap: 10px;
+    padding-bottom: 1rem;
     width: 100%;
     min-width: 0;
     box-sizing: border-box;

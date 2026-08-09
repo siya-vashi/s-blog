@@ -4,11 +4,6 @@
   }
 
   @font-face {
-    font-family: "bookman";
-    src: url('/fonts/bookman.ttf') format("truetype");
-  }
-  
-  @font-face {
-    font-family: "daft";
-    src: url('/fonts/daft.ttf') format("truetype");
+    font-family: "better vcr";
+    src: url('/fonts/better_vcr.ttf') format("truetype");
   }

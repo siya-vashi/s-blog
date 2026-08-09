@@ -21,17 +21,17 @@
   gap: 12px;
   z-index: 1001;
   font-family: "inter";
-  color: #e6d0dc;
+  color: #c7d8f4;
   overflow-x: hidden;
 
 }
 
 .admin-modal-title {
-  font-family: "bookman";
+  font-family: "better vcr";
   font-size: 24px;
   text-align: center;
   margin: 0;
-  color: #e6d0dc;
+  color: #c7d8f4;
 }
 
 
@@ -41,7 +41,7 @@
   border: none;
   outline: none;
   border-radius: 8px;
-  background: #e6d0dc;
+  background: #c7d8f4;
   color: #5c4671;
   font-family: "inter";
   font-size: 15px;
@@ -49,7 +49,7 @@
 }
 
 .search::placeholder {
-  color: #9c6f89;
+  color: #5c4671;
 }
 
 
@@ -68,7 +68,7 @@
 }
 
 .post-index::-webkit-scrollbar-thumb {
-  background: #d3b2c5;
+  background: #9db2d4;
   border-radius: 10px;
 }
 
@@ -86,7 +86,7 @@
   width: 100%;
   padding: 0.9rem 1rem;
   text-align: left;
-  background: #e6d0dc;
+  background: #c7d8f4;
   color: #5c4671;
   border-radius: 8px;
   font-family: "inter";
@@ -115,17 +115,17 @@
   cursor: url("/public/pointer.svg") 16 16, auto;
   position: relative;
   color: #5c4671;
-  font-family: "daft";
+  font-family: "better vcr";
   font-size: 18px;
   text-align: center;
-  background-color: #e6d0dc;
+  background-color: #c7d8f4;
   width: 220px;
   padding: 0.4rem 0;
   border-radius: 5px;
   margin: 0.5rem auto 0;
   box-shadow:
-      inset 0 1px 0 #d3b2c5,
-      0 10px 0 #d3b2c5;
+      inset 0 1px 0 #9db2d4,
+      0 10px 0 #9db4d8;
 
   transition: top 0.1s;
 }
@@ -133,5 +133,5 @@
 .cancel:active {
   top: 10px;
   box-shadow:
-      inset 0 -3px 0 #d3b2c5;
+      inset 0 -3px 0 #9db2d4;
 }

@@ -18,10 +18,15 @@ export default function Header() {
   return (
     <div className="header">
 
-      <h1 className="title"
-      onClick={() => navigate("/")}>
-        siya's archives.
-      </h1>
+    <h1
+      className="title"
+      onClick={() => {
+        navigate("/");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }}
+    >
+      siya's space.
+    </h1>
 
 
       <div className="header-icons">
