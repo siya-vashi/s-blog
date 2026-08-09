@@ -31,4 +31,4 @@ A responsive full-stack blog website built with React and Supabase that allows v
 - Visual Studio Code
 
 ## Live Demo
-coming soon!
+https://siyas-space.vercel.app/
